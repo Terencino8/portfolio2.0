@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    width: inherit;
+  }
+  .App{
+    width: 100%;
+    background-color: black;
+  }
+  
+.container{
+    width: 100%;
+    height: 100%;
+    padding:0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+}
+
+.btn{
+    width: 30%;
+    height: 3rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    margin-right: 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    height: 3.5rem;
+    width: 30%;
+    transition: all 0.4s ease-in;
+
+}
+
+.fullbtn{
+    background-color: #B200AB;
+}
+
+.transparentbtn{
+    background-color: transparent;
+}
+
+.textWrapper{
+    width: 90%;
+    height: 60%;
+    font-size: 1.2rem;
+    color: #d9d9d9;
+}
+
+.title{
+    color: #B200AB;
+}
+
+.head{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.desc{
+    width: 95%;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:1000px) {
+    .container{
+        height: 150vh;
+    }
+
+    .desc{
+        height: 50%;
+        overflow-y: scroll;
+        font-size: 1rem;
+        /* text-align: justify; */
+    }
+
+    .head{
+        color: white;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .container{
+        padding:20px;
+        display: block;
+    }
+
+    
+    .left{
+        width: 100%;
+        height: 50%;
+
+    }
+    .right{
+        width: 100%;
+        height: 50%;
+    }
+
+    .btn{
+        width: 45%;
+    margin-right: 0px;
+
+    }
+
+    .textWrapper{
+        height: 90%;
+        width: 100%;
+    }
+    .desc{
+        height: 50%;
+        overflow-y: scroll;
+        font-size: 1rem;
+        /* text-align: justify; */
+    }
+}
