@@ -91,4 +91,9 @@
         align-items: center;
         justify-content: space-between;
     }
+    .btn{
+        width: 45%;
+    margin-right: 0px;
+
+    }
 }

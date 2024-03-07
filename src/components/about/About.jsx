@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
 import './about.css'
 import TeeImg2 from '../../images/teeImg2.png'
-import cv from "../../images/Terence Onyekachi CV 2024.pdf"
+import cv from "../../images/TERENCE ONYEKACHI WEB RESUME.pdf"
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 
