@@ -91,9 +91,12 @@
         align-items: center;
         justify-content: space-between;
     }
-    .btn{
-        width: 45%;
-    margin-right: 0px;
+    .home .btn{
+        width: 80%;
+        margin-right: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
     }
 }
